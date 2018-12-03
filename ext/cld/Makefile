@@ -1,6 +1,6 @@
 # TODO: Generate Makefile
-
-CFLAGS=-fPIC -I. -O2 -DCLD_WINDOWS
+CFLAGS=-fPIC -I. -O2 -DCLD_WINDOWS -Wno-narrowing
+CXXFLAGS=-Wno-narrowing
 LDFLAGS=-L.
 CC=g++
 AR=ar
